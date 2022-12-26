@@ -1,0 +1,39 @@
+[
+	{
+		"id_producto": 10010,
+		"categoria": "Purificador de Agua",
+		"nombre": "PSA Senior 4 Bianco + Kit Posvt.",
+		"precio": 69.900,
+		"pb": "3.5",
+		"rendimiento": 36.000,
+		"garantia": 36,
+		"manual-usuario": "https://info.psa.com.ar/landings/manuales/psa-senior_4/psa-senior_4.html",
+		"imagen": "http://google.com.ar",
+		"descripcion": "El Modelo PSA Senior4 ha sido diseñado para el tratamiento de agua potable corriente de red. Sus medios activos aseguran una reducción de cloro, de trihalometanos (THM's) y de metales como hierro, plomo, y aluminio. De esa manera, se logra una notable mejora en el sabor, el color y el olor del agua."
+	},
+	{
+		"id_producto": 10520,
+		"categoria": "Purificador de Agua",
+		"nombre": "PSA Senior 4 Bianco + Kit Posvt.",
+		"precio": 69.900,
+		"pb": "3.5",
+		"rendimiento": 36.000,
+		"garantia": 36,
+		"manual-usuario": "https://info.psa.com.ar/landings/manuales/psa-senior_4/psa-senior_4.html",
+		"imagen": "http://google.com.ar",
+		"descripcion": "El Modelo PSA Senior4 ha sido diseñado para el tratamiento de agua potable corriente de red. Sus medios activos aseguran una reducción de cloro, de trihalometanos (THM's) y de metales como hierro, plomo, y aluminio. De esa manera, se logra una notable mejora en el sabor, el color y el olor del agua."
+	},
+	{
+		"id_producto": 10087,
+		"categoria": "Purificador de Agua",
+		"nombre": "PSA Senior 4 Bianco + Kit Posvt.",
+		"precio": 69.900,
+		"pb": "3.5",
+		"rendimiento": 36.000,
+		"garantia": 36,
+		"manual-usuario": "https://info.psa.com.ar/landings/manuales/psa-senior_4/psa-senior_4.html",
+		"imagen": "http://google.com.ar",
+		"descripcion": "El Modelo PSA Senior4 ha sido diseñado para el tratamiento de agua potable corriente de red. Sus medios activos aseguran una reducción de cloro, de trihalometanos (THM's) y de metales como hierro, plomo, y aluminio. De esa manera, se logra una notable mejora en el sabor, el color y el olor del agua."
+	}
+	
+]
