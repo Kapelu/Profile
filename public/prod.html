@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+		<style>
+			/* Font Title*/
+			@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@300&display=swap');
+			/* Font Nav*/
+			@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+			:root {
+				--color-nav: #9c9b9c;
+				--color-header: #097fa3;
+				--color-main: #097fa3;
+				--color-footer: #097fa3;
+				--color-titleFooter: #0f3f3d;
+				--font-titleFooter: 'Kalam', cursive;
+				--ancho: 100%;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			body {
+				background-color: var(--color-nav);
+			}
+			.header {
+				background-color: var(--color-header);
+				color: var(--color-titleFooter);
+				width: var(--ancho);
+				height: 50px;
+				text-align: center;
+				font-family: var(--font-titleFooter);
+			}
+			.nav {
+				margin: auto;
+				width: var(--ancho);
+				height: 50px;
+				font-family: 'Open Sans';
+				font-size: 20px;
+				margin-top: 50px;
+			}
+			.main {
+				background-color: var(--color-main);
+				width: var(--ancho);
+				height: calc(100vh - 128px);
+			}
+			.footer {
+				background-color: var(--color-footer);
+				color: var(--color-titleFooter);
+				width: var(--ancho);
+				height: 30px;
+				font-size: 30px;
+				text-align: center;
+				font-family: var(--font-titleFooter);
+			}
+			/** MENU PRINCIPAL */
+			.menu-horizontal {
+				list-style: none;
+				display: flex;
+				justify-content: space-evenly;
+			}
+			.menu-horizontal > li > a {
+				display: block;
+				padding: 15px 10px;
+				color: #ffffff;
+				text-decoration: none;
+			}
+			.menu-horizontal > li:hover {
+				background-color: #858181;
+			}
+			.menu-vertical {
+				position: absolute;
+				display: none;
+				list-style: none;
+				width: 200px;
+				background-color: #00000080;
+			}
+			.menu-horizontal li:hover .menu-vertical {
+				display: block;
+			}
+			.menu-vertical li:hover {
+				background-color: #5a636d;
+			}
+			.menu-vertical li a {
+				display: block;
+				color: #fff;
+				text-decoration: none;
+				padding: 15px 15px 15px 15px;
+			}
+			/** MAIN */
+
+			.card {
+				margin: 55px 150px 10px; /* Arriba | Horizontal | Abajo */
+				height: auto;
+				border-color: #0f3f3d;
+				background: rgba(138, 187, 206, 0.5);
+			}
+			.formulario {
+				margin: 0px;
+				padding: 5px 0px 50px;
+			}
+			.item-label {
+				margin: 15px;
+				padding: 0px;
+				display: flex;
+				flex-direction: column;
+				text-align: left;
+			}
+		</style>
+		<title>Server PSA</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="title">
+				<h1>Bienvenido al server PSA! 🚀</h1>
+			</div>
+		</header>
+		<nav>
+			<ul class="menu-horizontal">
+				<li>
+					<a href="/">Inicio</a>
+					<ul class="menu-vertical">
+						<li>
+							<a href="/dip-json" target="_blank">Distribuidor</a>
+						</li>
+						<li>
+							<a href="/prod-json" target="_blank">Productos</a>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="./">Distribuidor</a>
+					<ul class="menu-vertical">
+						<li><a href="/dip-consulta">Consulta</a></li>
+						<li><a href="/dip-alta">Alta</a></li>
+						<li><a href="/dip-mod">Modificación</a></li>
+						<li><a href="/dip-baja">Baja</a></li>
+						<li><a href="/listado">Listado</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="/">Productos</a>
+					<ul class="menu-vertical">
+						<li><a href="/prod-consulta">Consulta</a></li>
+						<li><a href="/prod-alta">Alta</a></li>
+						<li><a href="/prod-mod">Modificación</a></li>
+						<li><a href="/prod-baja">Baja</a></li>
+						<li><a href="/prod-listado">Listado</a></li>
+					</ul>
+				</li>
+				<li><a href="./contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<main class="main">
+			<br />
+			<div class="card">
+				<div class="formulario">
+					<form class="">
+						<table class="divItem">
+							<div class="item">
+								<p><label class="item-label">Id:</label></p>
+                                <p><input class="item-imput" type="text" name=""/></p>
+							</div>
+
+
+							<tr>
+								<th></th>
+								<th></th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label">Categoria:</label>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label">Nombre:</label>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label">Precio:</label>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label">PB:</label>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label"
+										>Rendimiento:</label
+									>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label">Garantia:</label>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label">Manual:</label>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label">Imagen:</label>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<label class="item-label"
+										>Descripción:</label
+									>
+								</th>
+								<th>
+									<input
+										class="item-imput"
+										type="text"
+										name=""
+									/>
+								</th>
+							</tr>
+						</table>
+						<div class="botones">
+							<button class="boton">Aceptar</button>
+							<button class="boton">Cancelar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">By Daniel Calderon ®</footer>
+	</body>
+</html>

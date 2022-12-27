@@ -1,16 +1,11 @@
-const express = require ('express')
-const server = express()
-const port = 5000
+const server = require('./app')
 
-server.get('/', (pre,res)=>{
-    res.send('Helo Wold !!!')
-})
 
 async function serverStart() {
-	await server.listen(port)
+	await server.listen(server.get('port'))
 	console.log('/**************************************/')
 	console.log('/                                      / ')
-	console.log(`/ Server running on port: [${port}]   🚀  /`)
+	console.log(`/ Server running on port: [`,server.get('port'),`] 🚀  /`)
 	console.log('/                                      / ')
 	console.log('/ By Keiko Tadashi                     / ')
 	console.log('/                                      / ')

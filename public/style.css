@@ -1,0 +1,114 @@
+/* Font Title*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@300&display=swap');
+/* Font Nav*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root {
+	--color-nav: #9c9b9c;
+	--color-header: #097fa3;
+	--color-main: #097fa3;
+	--color-footer: #097fa3;
+	--color-titleFooter: #0f3f3d;
+	--font-titleFooter: 'Kalam', cursive;
+	--ancho: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: var(--color-nav);
+}
+.header {
+	background-color: var(--color-header);
+	color: var(--color-titleFooter);
+	width: var(--ancho);
+	height: 50px;
+	text-align: center;
+	font-family: var(--font-titleFooter);
+}
+.nav {
+	margin: auto;
+	width: var(--ancho);
+	height: 50px;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	margin-top: 50px;
+}
+.main {
+	background-color: var(--color-main);
+	width: var(--ancho);
+	height: calc(100vh - 128px);
+}
+.footer {
+	background-color: var(--color-footer);
+	color: var(--color-titleFooter);
+	width: var(--ancho);
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+	font-family: var(--font-titleFooter);
+}
+/** MENU PRINCIPAL */
+.menu-horizontal {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+.menu-horizontal > li > a {
+	display: block;
+	padding: 15px 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover {
+	background-color: #858181;
+}
+.menu-vertical {
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: #00000080;
+}
+.menu-horizontal li:hover .menu-vertical {
+	display: block;
+}
+.menu-vertical li:hover {
+	background-color: #5a636d;
+}
+.menu-vertical li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+}
+/** MAIN */
+
+.card {
+	margin: 55px 150px 10px;     /* Arriba | Horizontal | Abajo */
+	height: auto;
+	border-color: #0f3f3d;
+	/* background: rgba(138, 187, 206, 0.5); */
+}
+.formulario{
+	margin: 0px;
+	padding: 5px 0px 50px;
+}
+
+.item{
+	width: auto;
+	height: 20px;
+	background-color: aqua;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.item-label{
+	margin: 15px;
+	padding: 0Px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
