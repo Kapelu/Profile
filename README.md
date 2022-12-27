@@ -28,7 +28,7 @@ flowchart LR
   }
 }
 ```
-[Explicacion de la configuración](]ttps://www.youtube.com/watch?v=olTgcd5VjX0)
+[Explicacion de la configuración](https://www.youtube.com/watch?v=olTgcd5VjX0)
 
 > linea 6 ==> 10:35
 
