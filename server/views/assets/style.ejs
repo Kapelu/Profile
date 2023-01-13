@@ -1,0 +1,295 @@
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+	:root {
+		--color-nav: #097fa3;
+		--color-header: #097fa3;
+		--color-main: #097fa3;
+		--color-footer: #097fa3;
+		--color-titleFooter: #242424;
+		--color-menu: #fff;
+		--color-form: #81818a;
+		--color-boton: rgba(21, 88, 143, 0.664);
+		--color-text: #dedfe0;
+		--font-text: 'Open Sans';
+		--font-titleFooter: 'Kalam', cursive;
+		--ancho: 100%;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: var(--font-text);
+	}
+	body {
+		background-color: var(--color-nav);
+	}
+	header {
+		background-color: var(--color-header);
+		color: var(--color-titleFooter);
+		width: var(--ancho);
+		height: 5px;
+		text-align: center;
+		font-family: var(--font-titleFooter);
+	}
+	nav {
+		max-width: 900px;
+		margin: auto;
+		background-color: #333;
+		font-size: 20px;
+		margin-top: 50px;
+		border-radius: 25px;
+	}
+	.menu-horizontal {
+		list-style: none;
+		display: flex;
+		justify-content: space-around;
+	}
+	.menu-horizontal > li > a {
+		display: block;
+		padding: 15px 20px;
+		color: var(--color-text);
+		text-decoration: none;
+	}
+	.menu-horizontal > li:hover {
+		background-color: #69707254;
+	}
+	.menu-vertical {
+		position: absolute;
+		display: none;
+		list-style: none;
+		width: 200px;
+		background-color: #3a3838e3;
+	}
+	.menu-horizontal li:hover .menu-vertical {
+		display: block;
+	}
+	.menu-vertical li:hover {
+		background-color: rgb(73, 71, 71);
+	}
+	.menu-vertical li a {
+		display: block;
+		color: var(--color-text);
+		text-decoration: none;
+		padding: 15px 15px 15px 20px;
+	}
+	.main {
+		display: flex;
+		justify-content: center;
+		/* border: 5px solid #ffd650; */
+		width: 800px;
+		background-color: var(--color-main);
+		width: var(--ancho);
+		height: calc(100vh - 200px);
+	}
+	.container {
+		/* border-radius: 25px;*/
+		margin-top: 5px;
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 900px;
+		height: 730px;
+		background-color: var(--color-main);
+	}
+	.box-formulario {
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+		border-radius: 25px 25px 0 0;
+		background-color: var(--color-form);
+		width: var(--ancho);
+		height: 700px;
+	}
+	.formulario {
+		flex-direction:column;
+		padding: 0px;
+		display: flex;
+		
+		border-radius: 25px 25px 0 0;
+		background-color: var(--color-form);
+		width: var(--ancho);
+		height: 650px;
+	}
+	.titlulo-formulario {
+		background: #4b4b4b;
+		font-size: 14px;
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 25px 25px 0 0;
+		width: var(--ancho);
+		height: 65px;
+	}
+	.item-image{
+		border: 5px solid #76aacad0;
+		box-shadow: 0 0 20px 5px #87b3cfd0;
+		margin: 20px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 100%;
+		width: 130px;
+		height: 130px;
+	}
+
+	.centro-dip{
+		background: var(--color-form);		
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: var(--ancho);
+		height: 50px;
+	}
+	
+	.input{
+		font-size: 20px;
+		border-radius: 5px;
+	}
+	.input-centro{
+		font-size: 20px;
+		width: 50px;
+		border-radius: 5px;
+	}
+	.input-dip{
+		margin: 10px;
+		font-size: 20px;
+		width: 150px;
+		border-radius: 5px;
+	}
+
+	.nombre-apellido{
+		background: var(--color-form);		
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 20px;
+		display: flex;
+		justify-content:space-evenly;
+		align-items:center;
+		width: var(--ancho);
+		height: 50px;
+	}
+
+	.tel-mail{
+		background: var(--color-form);		
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 20px;
+		display: flex;
+		justify-content:space-evenly;
+		align-items: center;
+		width: var(--ancho);
+		height: 50px;
+	}
+	.cat-razonSocial{
+		background: var(--color-form);		
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 20px;
+		display: flex;
+		justify-content:space-evenly;
+		align-items: center;
+		width: var(--ancho);
+		height: 50px;
+	}
+
+	.organizacion-equipo{
+		background: var(--color-form);		
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 20px;
+		display: flex;
+		justify-content:space-evenly;
+		align-items: center;
+		width: var(--ancho);
+		height: 50px;
+	}
+
+	.titulo-patrocinante {
+		background: #4b4b4b;
+		font-size: 20px;
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		width: var(--ancho);
+		height: 45px;
+	}
+
+	.patrocinante{
+		background: var(--color-form);		
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 20px;
+		display: flex;
+		justify-content:space-evenly;
+		align-items: center;
+		width: var(--ancho);
+		height: 50px;
+	}
+
+	.nombre-patrocinante{
+		background: var(--color-form);		
+		font-family: var(--font-titleFooter);
+		color: var(--color-text);
+		padding: 20px;
+		display: flex;
+		justify-content:center;
+		align-items: center;
+		width: var(--ancho);
+		height: 50px;
+	}
+
+	.box-botones {
+		padding: 5px;
+		display: flex;
+		justify-content: space-evenly;
+		border-radius: 0 0 25px 25px;
+		width: var(--ancho);
+		height: 100px;
+		background-color: var(--color-form);
+	}
+
+	/* Botones */
+	button {
+		border: none;
+		outline: none;
+		background-color: var(--color-boton);
+		padding: 5px 50px;
+		font-family: var(--font-text);
+		font-size: 20px;
+		font-weight: 300;
+		color: var(--color-text);
+		border-radius: 15px;
+		transition: all ease 0.8s;
+		box-shadow: 0px 1px 0px 1px #385668;
+	}
+
+	button:active {
+		transform: translateY(1px);
+		box-shadow: 0px 0px 0px 0px #a29bfe;
+	}
+
+	a{
+		text-decoration:none;
+		color: var(--color-text);
+	}
+	.footer {
+		background-color: var(--color-footer);
+		color: var(--color-titleFooter);
+		width: var(--ancho);
+		height: 20px;
+		font-size: 20px;
+		text-align: center;
+		font-family: var(--font-titleFooter);
+	}
+</style>
