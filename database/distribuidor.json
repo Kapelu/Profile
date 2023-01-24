@@ -6,9 +6,9 @@
 		"apellido": "Calderon",
 		"telefono": "+542615370075",
 		"email": "ddaniel_calderon@hotmail.com",
-		"categoria": "Junior",
+		"categoria": "Distribuidor Junior",
 		"razon-social": "sujeto - no categorizado",
-		"imagen":"http://google.com.ar"
+		"imagen":"https://randomuser.me/api/portraits/men/43.jpg"
 	},
 	{
 		"id": 20000163,
@@ -17,9 +17,9 @@
 		"apellido": "Calderon",
 		"telefono": "+542615370075",
 		"email": "thomas_calderon@hotmail.com",
-		"categoria": "Junior",
+		"categoria": "Distribuidor",
 		"razon-social": "responsable inscripto",
-		"imagen":"http://google.com.ar"
+		"imagen":"https://randomuser.me/api/portraits/men/47.jpg"
 	},
 	{
 		"id": 20000165,
@@ -28,9 +28,9 @@
 		"apellido": "Calderon",
 		"telefono": "+542614560075",
 		"email": "marina_calderon@hotmail.com",
-		"categoria": "Junior",
+		"categoria": "Distribuidor",
 		"razon-social": "responsable inscripto",
-		"imagen":"http://google.com.ar"
+		"imagen":"https://randomuser.me/api/portraits/women/21.jpg"
 	},
 	{
 		"id": 20000172,
@@ -39,8 +39,8 @@
 		"apellido": "Calderon",
 		"telefono": "+542615370075",
 		"email": "lucia_calderon@hotmail.com",
-		"categoria": "Junior",
+		"categoria": "Distribuidor Junior",
 		"razon-social": "sujeto - no categorizado",
-		"imagen":"http://google.com.ar"
+		"imagen":"https://randomuser.me/api/portraits/women/50.jpg"
 	}
 ]
