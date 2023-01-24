@@ -1,6 +1,5 @@
 const server = require('./server/server')
 
-
 async function serverStart() {
 	await server.listen(server.get('port'))
 	console.log('/**************************************/')
