@@ -3,14 +3,18 @@ import './Nav.css'
 
 function Nav() {
 	return (
+		<>
+		<div className='container'>
+			
 		<nav className='nav'>
-			<h1>Mi sitio</h1>
 			<ul>
 				<li>Inicio</li>
 				<li>Acerca de</li>
 				<li>Contacto</li>
 			</ul>
 		</nav>
+		</div>
+		</>
 	)
 }
 

@@ -1,10 +1,10 @@
 .nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content:center;
 	align-items: center;
-	padding: 20px;
-	background-color: #6e3fc48c;
-	color: #fff;
+	padding: 10px;
+	background-color: #550ba0fa;
+	color: #dfdfdf;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -23,5 +23,5 @@
 }
 
 .nav li {
-	margin-left: 30px;
+	margin-left: 35px;
 }
