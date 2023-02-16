@@ -5,7 +5,7 @@
 	--backgronud-dark: #fca61f;
 }
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 1px;
 }
 ::-webkit-scrollbar-track {
 	background: #ffffff;

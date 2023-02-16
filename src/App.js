@@ -1,14 +1,32 @@
-import React from 'react'
-import Home from './components/Home.js'
-import Navbar from './layout/Navbar.js'
+import './style/app.css'
+import {Link} from 'react-scroll'
 
-function App() {
+export default function App() {
 	return (
-		<>
-			<Navbar />
-			<Home />
-		</>
+		<div className='App'>
+			<header className='nav'>
+				<nav className='nav__container__actions'>
+					<ul>
+						<li>
+							<Link activeClass='active' smooth spy to='about'>ABOUT</Link>
+							
+						</li>
+						<li>
+							<Link activeClass='active' smooth spy to='projects'>PROJECTS</Link>
+						</li>
+						<li>
+							<Link activeClass='active' smooth spy to='blog'>BLOG</Link>
+						</li>
+						<li>
+							<Link activeClass='active' smooth spy to='contact'>CONTACT ME</Link>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<section id='about'>ABOUT</section>
+			<section id='projects'>PROJECTS</section>
+			<section id='blog'>BLOG</section>
+			<section id='contact'>CONTACT ME</section>
+		</div>
 	)
 }
-
-export default App
