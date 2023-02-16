@@ -1,32 +1,9 @@
 
 
 .App {
-	font-family: sans-serif;
+	color: aliceblue;
+	font-family: sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	text-align: center;
-}
-
-section {
-	display: grid;
-	place-items: center;
-	height: 100vh;
-	font-size: 32px;
-	font-weight: bold;
-}
-
-#about {
-	margin-top: -80px;
-}
-
-#projects,
-#contact {
-	color: #3b3b3c;
-	background: #f0eab4;
-}
-
-#about,
-#blog {
-	color: #3b3b3c;
-	background: #b4e4f0;
 }
 
 .nav {
@@ -41,7 +18,6 @@ section {
 	z-index: 2;
 	height: 70px;
 	min-height: 70px;
-	box-shadow: 0 0.125rem 1rem 0 rgba(0, 0, 0, 0.11);
 }
 
 .nav__container {
@@ -81,3 +57,36 @@ li {
 li:hover {
 	text-decoration: underline;
 }
+
+/*
+$ Estilizado de cadda section 
+*/
+section {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#home {
+	margin-top: 10px;
+	color: #3b3b3c;
+	background: #dfd157;
+}
+
+#about{
+	color: #3b3b3c;
+	background: #b4e4f0;
+}
+
+#projects {
+	color: #3b3b3c;
+	background: #dfd157;
+}
+
+#contact {
+	color: #3b3b3c;
+	background: #b4e4f0;
+}
+
