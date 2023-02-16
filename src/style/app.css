@@ -1,20 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
 
 .App {
 	color: aliceblue;
-	font-family: sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	text-align: center;
 }
 
 .nav {
-	background-color:var(--background-nav);
+	background-color: var(--background-nav);
 	width: 100%;
-	padding: 0 1rem;
+	padding: 0;
 	display: flex;
 	align-items: center;
-	position: -webkit-sticky;
 	position: sticky;
-	top: -5px;
+	top: -1px;
 	z-index: 2;
 	height: 70px;
 	min-height: 70px;
@@ -64,29 +63,43 @@ $ Estilizado de cadda section
 section {
 	display: grid;
 	place-items: center;
-	height: 100vh;
-	font-size: 32px;
-	font-weight: bold;
 }
 
 #home {
-	margin-top: 10px;
-	color: #3b3b3c;
+	height: 100vh;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: -1px;
+	color: #ffffff;
 	background: #dfd157;
+	background-image: url(../img/home.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-#about{
+#about {
+	height: 100vh;
+	font-size: 32px;
+	font-weight: bold;
 	color: #3b3b3c;
 	background: #b4e4f0;
 }
 
 #projects {
+	height: 100vh;
+	font-size: 32px;
+	font-weight: bold;
 	color: #3b3b3c;
 	background: #dfd157;
+	background-image: url(../img/project.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #contact {
+	height: 100vh;
+	font-size: 32px;
+	font-weight: bold;
 	color: #3b3b3c;
 	background: #b4e4f0;
 }
-
