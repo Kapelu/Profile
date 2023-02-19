@@ -1,0 +1,27 @@
+/*? Aqui se declaran las variables de colores a utilizar en toda la pagina */
+:root {
+	--background-nav:#004073;
+	--backgound-light: #f5c32c;
+	--backgronud-dark: #fca61f;
+}
+::-webkit-scrollbar {
+	width: 1px;
+}
+::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+	background: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
