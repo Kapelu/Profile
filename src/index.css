@@ -1,8 +1,10 @@
 /*? Aqui se declaran las variables de colores a utilizar en toda la pagina */
 :root {
-	--background-nav:#004073;
-	--backgound-light: #f5c32c;
-	--backgronud-dark: #fca61f;
+	--background-nav: #827e58;
+	--background-home:#09a4dd;
+	--background-about:#3ff7ff;
+	--background-portfolio:#eecd86;
+	--background-contact:#eecd86;
 }
 ::-webkit-scrollbar {
 	width: 1px;
@@ -21,11 +23,11 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

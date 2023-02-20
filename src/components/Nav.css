@@ -1,9 +1,12 @@
 .nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: gray;
+	background-color: var(--background-nav);
+	text-decoration: none;
+	position: sticky;
+	width: 100vh;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .nav ul {
@@ -14,5 +17,14 @@
 
 .nav li {
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0 25px;
+}
+
+.nav li a:hover {
+	text-decoration: underline;
+}
+
+a {
+	color: aquamarine;
+	text-decoration: none;
 }

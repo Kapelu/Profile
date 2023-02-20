@@ -3,7 +3,7 @@ import './Nav.css'
 
 export default function Nav(){
     return(
-	<nav className='Nav'>
+	<nav className='nav'>
 		<ul>
 			<li>
 				<Link to={'/'}>Home</Link>

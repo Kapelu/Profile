@@ -1,32 +1,22 @@
 import Nav from '../components/Nav'
+import './about.css'
 
 export default function About() {
 	return (
 		<>
 			<Nav />
-			<h1>View About </h1>
-			<p>
-				Vivamus arcu felis bibendum ut. Tincidunt id aliquet risus
-				feugiat in ante metus dictum. Volutpat maecenas volutpat blandit
-				aliquam. Tempor orci eu lobortis elementum nibh. Commodo odio
-				aenean sed adipiscing diam donec adipiscing tristique. Rhoncus
-				mattis rhoncus urna neque viverra. Quisque id diam vel quam.
-				Purus semper eget duis at tellus at. Ultricies leo integer
-				malesuada nunc. Lectus sit amet est placerat in egestas erat
-				imperdiet. Ut consequat semper viverra nam libero. Hendrerit
-				dolor magna eget est. Diam vulputate ut pharetra sit amet
-				aliquam id diam maecenas. Cursus in hac habitasse platea
-				dictumst. Dolor purus non enim praesent elementum facilisis leo.
-				Dignissim suspendisse in est ante in nibh mauris cursus mattis.
-				Mi quis hendrerit dolor magna eget est lorem ipsum dolor.
-				Consequat ac felis donec et odio pellentesque diam volutpat
-				commodo. Dolor magna eget est lorem ipsum dolor. In cursus
-				turpis massa tincidunt dui ut ornare lectus sit. Libero nunc
-				consequat interdum varius sit. Turpis egestas sed tempus urna et
-				pharetra pharetra massa. Pellentesque eu tincidunt tortor
-				aliquam nulla facilisi cras fermentum. Mattis ullamcorper velit
-				sed ullamcorper morbi tincidunt ornare.
-			</p>
+			<div className='container'>
+				
+				<div className='nombre'>
+					<p>About</p>
+					<h1>Daniel Calderon</h1>
+				</div>
+				<div className='datos'>
+				Lorem ipsum dolor sit amet consectetur adipiscing elit massa tempus, iaculis gravida magna facilisi commodo luctus ut aliquet urna, dapibus mi vulputate blandit non vehicula risus mollis. Gravida pulvinar quisque metus felis duis scelerisque nostra nullam laoreet, lacinia primis curae ante tortor proin integer commodo, quis potenti libero velit ac eget ridiculus maecenas. Interdum mauris morbi nostra a tellus condimentum vehicula, ligula aliquet et commodo imperdiet egestas lacinia, fames sodales class fringilla facilisis gravida.
+
+Metus semper placerat penatibus dapibus morbi cubilia, laoreet sem purus conubia ultrices bibendum, mollis molestie habitasse sapien dis. Luctus duis iaculis feugiat erat libero nascetur hendrerit laoreet ultrices sociis, ullamcorper est velit egestas cursus curabitur rutrum aenean. Bibendum pretium venenatis primis curae sagittis varius fusce rutrum metus felis, et tellus iaculis facilisi eget quisque suscipit vitae ultricies est gravida, neque scelerisque vulputate augue molestie congue cubilia mi accumsan. Interdum purus sed auctor sem mi consequat augue pharetra in semper vitae condimentum, nullam etiam non nostra accumsan platea quis blandit metus rutrum.
+				</div>
+			</div>
 		</>
 	)
 }
