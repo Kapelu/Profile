@@ -1,6 +1,9 @@
-const Home = () => {
+import Nav from '../components/Nav'
+
+export default function Home() {
 	return (
-		<div>
+		<>
+			<Nav />
 			<h1>View Home</h1>
 			<p>
 				Vivamus arcu felis bibendum ut. Tincidunt id aliquet risus
@@ -24,7 +27,6 @@ const Home = () => {
 				aliquam nulla facilisi cras fermentum. Mattis ullamcorper velit
 				sed ullamcorper morbi tincidunt ornare.
 			</p>
-		</div>
+		</>
 	)
 }
-export default Home

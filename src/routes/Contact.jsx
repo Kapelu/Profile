@@ -1,7 +1,7 @@
-const Contact = () => {
+export default function Contact(){
 	return (
-		<div>
-			<h1>View Contact</h1>
+		<>
+			<h1>View Contact </h1>
 			<p>
 				Vivamus arcu felis bibendum ut. Tincidunt id aliquet risus
 				feugiat in ante metus dictum. Volutpat maecenas volutpat blandit
@@ -24,7 +24,6 @@ const Contact = () => {
 				aliquam nulla facilisi cras fermentum. Mattis ullamcorper velit
 				sed ullamcorper morbi tincidunt ornare.
 			</p>
-		</div>
+		</>
 	)
 }
-export default Contact
