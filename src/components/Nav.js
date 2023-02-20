@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
+import './Nav.css'
 
 export default function Nav(){
-    <nav>
+    return(
+	<nav className='Nav'>
 		<ul>
 			<li>
 				<Link to={'/'}>Home</Link>
@@ -17,4 +19,5 @@ export default function Nav(){
 			</li>
 		</ul>
 	</nav>
+	)
 }

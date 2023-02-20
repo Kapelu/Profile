@@ -1,7 +1,10 @@
-export default function Portfolio(){
+import Nav from '../components/Nav'
+
+export default function About() {
 	return (
 		<>
-			<h1>View Portfolio </h1>
+			<Nav />
+			<h1>View About </h1>
 			<p>
 				Vivamus arcu felis bibendum ut. Tincidunt id aliquet risus
 				feugiat in ante metus dictum. Volutpat maecenas volutpat blandit

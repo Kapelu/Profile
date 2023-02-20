@@ -1,6 +1,9 @@
+import Nav from "../components/Nav"
+
 export default function Contact(){
 	return (
 		<>
+		<Nav />
 			<h1>View Contact </h1>
 			<p>
 				Vivamus arcu felis bibendum ut. Tincidunt id aliquet risus
