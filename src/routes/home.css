@@ -1,12 +1,15 @@
 .container{
-    background-color: var(--background-home);
-    text-align: center;
-	position: sticky;
-	width: 100vh;
-	height: 50px;
+	font-family: var(--font);
+	background-color: var(--background-home);
+	margin-top: 1px;
+	width: 100%;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: auto;
+	color: rgba(8, 8, 8, 0.9);
+	font-weight: 400;
 }
 h1{
     color:rgb(163, 111, 212)

@@ -1,12 +1,16 @@
-.container{
-    background-color: var(--background-about);
-    text-align: center;
-	position: sticky;
-	width: 100vh;
-	height: 50px;
+.container-about{
+	background-color: var(--background-about);
+	padding: 5px;
+	width: 100%;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: auto;
+	color: rgba(8, 8, 8, 0.9);
+	font-family: PT Serif, -apple-system, system-ui, BlinkMacSystemFont,
+		'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 400;
 }
 h1{
     color:rgb(163, 111, 212)

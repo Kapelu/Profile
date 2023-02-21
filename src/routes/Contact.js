@@ -5,7 +5,7 @@ export default function Contact() {
 	return (
 		<>
 			<Nav />
-			<div className='container'>
+			<div className='container-contact'>
 				<div className='imagen'>
 					<img src='../img/profile.jpg' alt='' />
 				</div>
