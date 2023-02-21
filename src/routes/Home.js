@@ -5,27 +5,69 @@ export default function Home() {
 	return (
 		<>
 			<Nav />
-			<div className='container'>
-				<div className='imagen'>
-					<img src='../img/profile.jpg' alt='' />
-				</div>
-				<div className='nombre'>
-					<p>Home</p>
-					<img src='/img/profile.png' alt='Daniel Calderon '></img>
-					<h1>Daniel Calderon</h1>
-					<p>
-					Lorem ipsum dolor sit amet consectetur adipiscing, elit arcu dapibus pretium molestie sociis cubilia, porttitor dis ac consequat metus. Cum ad tempor nunc eleifend magna blandit at aenean himenaeos suscipit non dui vestibulum, nec morbi risus lobortis mi consequat congue pulvinar penatibus dictumst venenatis. Enim libero cum arcu eget lacinia orci venenatis est, fermentum a tempus ridiculus mi vestibulum proin, massa bibendum potenti eros diam facilisi porttitor. Dictumst integer sociosqu semper euismod nullam lectus auctor cum aptent sociis, a per ullamcorper convallis vel tempor himenaeos laoreet massa justo, dignissim penatibus magna sapien mauris proin erat metus ante.
-
-Facilisi scelerisque a sed convallis placerat odio, himenaeos eget purus dictum lacus penatibus quisque, litora pellentesque porta volutpat non. Dignissim pharetra enim fames cum fusce magnis ac facilisi sapien vulputate dapibus consequat sollicitudin habitasse, nam eros vitae habitant luctus purus congue nulla tincidunt sem volutpat at. Feugiat potenti diam vitae sed senectus vulputate congue etiam viverra, orci ullamcorper porttitor nostra suscipit risus purus molestie. Non volutpat neque nostra magnis vel sed fusce bibendum nam tellus, egestas habitant purus ad cubilia suscipit dictum hac elementum quis, facilisi turpis felis ridiculus euismod platea penatibus viverra accumsan.
-
-Erat tempus class eros convallis volutpat vitae ut, conubia placerat ad nisi vehicula. Odio euismod pharetra ad vivamus dis nisl erat, lacus sociis dui vulputate enim rutrum rhoncus egestas, aptent nulla molestie neque litora vel. Sollicitudin auctor scelerisque class id felis a vivamus etiam, dignissim lobortis rutrum montes aliquam leo tempor platea, ultricies pulvinar enim augue vestibulum erat libero, inceptos suspendisse blandit lectus odio aptent aenean.
-					</p>
-
-				</div>
-				<div className='datos'>
-					
+			<div className='container-home'>
+				<div className='card'>
+					<div className='foto-perfil'></div>
+					<div className='nombre'>
+						<h1>Daniel Calderon</h1>
+					</div>
+					<div className='profesion'>
+						<h3>Full stack developer</h3>
+					</div>
+					<div className='redes-sociales'>
+						<div className='linkedin'></div>
+						<div className='github'></div>
+						<div className='email'></div>
+						<div className='whatsapp'></div>
+					</div>
+					<div className='frase-pele'>
+						<p className='frase'>
+							El éxito no es un accidente. Es trabajo duro,
+							perseverancia, aprendizaje, estudio, sacrificio, y
+							sobre todo, amor por lo que estás haciendo o
+							aprendiendo a hacer.
+						</p>
+						<p className='pele'>Pelé</p>
+					</div>
 				</div>
 			</div>
 		</>
 	)
 }
+/* 
+
+<div className='container-home'>
+				<div className='card'>
+					<div className='foto-perfil'></div>
+					<div className='nombre'>
+						<h1>Daniel Calderon</h1>
+					</div>
+					<div className='profesion'>
+						<h3>Full stack developer</h3>
+					</div>
+					<div className='redes-sociales'>
+						<div className='linkedin'></div>
+						<div className='github'>
+							<a href='https://github.com/Kapelu'	target='_blank' rel='noreferrer'>
+								<svg role='img'	viewBox='0 0 24 24'	xmlns='http://www.w3.org/2000/svg'>
+									<title>GitHub icon</title>
+									<path d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'>
+
+									</path>
+								</svg>
+							</a>
+						</div>
+						<div className='email'></div>
+						<div className='whatsapp'></div>
+					</div>
+					<div className='frase-pele'>
+						<p className='frase'>
+							El éxito no es un accidente. Es trabajo duro,
+							perseverancia, aprendizaje, estudio, sacrificio, y
+							sobre todo, amor por lo que estás haciendo o
+							aprendiendo a hacer.
+						</p>
+						<p className='pele'>Pelé</p>
+					</div>
+				</div>
+			</div> */

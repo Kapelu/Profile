@@ -1,16 +1,61 @@
-.container{
-	font-family: var(--font);
+.container-home{
 	background-color: var(--background-home);
-	margin-top: 1px;
+	border: 5px solid #ff6450;
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: auto;
-	color: rgba(8, 8, 8, 0.9);
-	font-weight: 400;
 }
-h1{
-    color:rgb(163, 111, 212)
+
+card{
+	margin: 10px;
+	border: 5px solid #ffd650;
+	width: 250px;
+	height: 250px;
+	background-Color: #FFFFFF;
+	border-Radius: 10px;
+	padding: 2em;
+	display: flex;
+	flex-Direction: column;
+	align-Items: center;
 }
+
+
+/* 
+	  img: {
+		width: '150px',
+		marginBottom: '1em',
+	  },
+	  name: {
+		fontSize: '2.5em',
+		fontWeight: 'bold',
+		margin: 0,
+		marginBottom: '1em',
+	  },
+	  linkContainer: {
+		display: 'flex',
+	  },
+	  link: {
+		display: 'inline-block',
+		padding: '0.5em',
+		borderRadius: '5px',
+		marginRight: '1em',
+	  },
+	  github: {
+		backgroundColor: '#24292E',
+	  },
+	  linkedin: {
+		backgroundColor: '#0077B5',
+	  },
+	  slack: {
+		backgroundColor: '#4A154B',
+	  },
+	  icon: {
+		fill: '#FFFFFF',
+		width: '1.5em',
+		height: '1.5em',
+	  },
+	};
+   */
