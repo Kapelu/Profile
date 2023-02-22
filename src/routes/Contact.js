@@ -1,10 +1,10 @@
-import Nav from '../components/Nav'
+import Navbar from '../components/Nav'
 import './contact.css'
 
 export default function Contact() {
 	return (
 		<>
-			<Nav />
+			<Navbar />
 			<div className='container-contact'>
 				<div className='imagen'>
 					<img src='../img/profile.jpg' alt='' />

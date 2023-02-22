@@ -1,20 +1,19 @@
 .container-home{
 	background-color: var(--background-home);
-	border: 5px solid #ff6450;
+	/* border: 5px solid #ff6450; */
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	/* justify-content: center; */
 	align-items: center;
 	overflow: auto;
 }
 
-card{
-	margin: 10px;
-	border: 5px solid #ffd650;
-	width: 250px;
-	height: 250px;
-	background-Color: #FFFFFF;
+.card{
+	border: 5px solid #ffffff00;
+	width: 550px;
+	height: 650px;
 	border-Radius: 10px;
 	padding: 2em;
 	display: flex;
@@ -22,40 +21,39 @@ card{
 	align-Items: center;
 }
 
+.foto-perfil{
+	width: 14rem;
+	height: 14rem;
+	border-radius: 100%;
+	overflow: hidden;
+	/* border: 5px solid #ffffff00; */
+	box-shadow: 0 0 20px #133888;
+}
 
-/* 
-	  img: {
-		width: '150px',
-		marginBottom: '1em',
-	  },
-	  name: {
-		fontSize: '2.5em',
-		fontWeight: 'bold',
-		margin: 0,
-		marginBottom: '1em',
-	  },
-	  linkContainer: {
-		display: 'flex',
-	  },
-	  link: {
-		display: 'inline-block',
-		padding: '0.5em',
-		borderRadius: '5px',
-		marginRight: '1em',
-	  },
-	  github: {
-		backgroundColor: '#24292E',
-	  },
-	  linkedin: {
-		backgroundColor: '#0077B5',
-	  },
-	  slack: {
-		backgroundColor: '#4A154B',
-	  },
-	  icon: {
-		fill: '#FFFFFF',
-		width: '1.5em',
-		height: '1.5em',
-	  },
-	};
-   */
+.foto{
+	width: 100%;
+	height:auto
+}
+.redes-sociales{
+	display: flex;
+	flex-direction: row;
+	align-Items: center;
+}
+
+.logo {
+	background-color: none;
+	border: 5px solid #ffffff00;
+	width: 4rem;
+	height: 4rem;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 50px;
+	text-decoration: none;
+}
+.logo svg {
+	height: 2rem;
+	fill: #504f4f;
+}
