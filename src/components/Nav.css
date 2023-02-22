@@ -1,37 +1,47 @@
 .nav {
 	background-color: var(--background-nav);
-	text-decoration: none;
 	position: sticky;
+	top: 0;
 	width: 100%;
 	height: 50px;
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	font-weight: 400;
-	font-display: swap;
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
-		'Helvetica Neue', Arial, sans-serif;
-	line-height: 1.6;
+	font-family:var(--frase-pele);
 }
 
 .nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
+	justify-content: space-around;
 }
 
-.nav li {
+.nav ul li {
 	display: inline-block;
 	margin: 0 25px;
 }
 
-.nav li a:hover {
-	text-decoration: underline;
+.nav ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 300;
+	color: #33bdc2 !important;
+	padding: 0.5em 1.2em;
+	background: var(--background-nav);
+	border: 2px solid;
+	border-color: var(--background-nav);
+	position: relative;
 }
 
-a {
-	color: aquamarine;
-	text-decoration: none;
+.nav ul li a:hover {
+	text-decoration:none;
+	background-color: #33bdc270;
+	border-style: none;
+	border-radius: 100%;
+	box-shadow: 0 4px 56px #3189acf5;
+	transition: all 0.01s ease;
 }

@@ -1,29 +1,99 @@
 import Nav from '../components/Nav'
+import './style.css'
 import './about.css'
+import fotoPerfil from '../img/keiko.png'
 
 export default function About() {
 	return (
 		<>
 			<Nav />
 			<div className='container-about'>
-				<div className='imagen'>
-					<img src='../img/profile.jpg' alt='' />
-				</div>
-				<div className='nombre'>
-					<p>About</p>
-					<h1>Daniel Calderon</h1>
-				</div>
-				<div className='datos'>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipiscing, elit arcu dapibus pretium molestie sociis cubilia, porttitor dis ac consequat metus. Cum ad tempor nunc eleifend magna blandit at aenean himenaeos suscipit non dui vestibulum, nec morbi risus lobortis mi consequat congue pulvinar penatibus dictumst venenatis. Enim libero cum arcu eget lacinia orci venenatis est, fermentum a tempus ridiculus mi vestibulum proin, massa bibendum potenti eros diam facilisi porttitor. Dictumst integer sociosqu semper euismod nullam lectus auctor cum aptent sociis, a per ullamcorper convallis vel tempor himenaeos laoreet massa justo, dignissim penatibus magna sapien mauris proin erat metus ante.
+				<div className='card'>
+					<div className='foto-perfil'>
+						<img src={fotoPerfil} alt='Kapelü' className='foto' />
+					</div>
+					<br />
+					<div className='profesion'>
+						<h1>Full stack developer</h1>
+					</div>
 
-Facilisi scelerisque a sed convallis placerat odio, himenaeos eget purus dictum lacus penatibus quisque, litora pellentesque porta volutpat non. Dignissim pharetra enim fames cum fusce magnis ac facilisi sapien vulputate dapibus consequat sollicitudin habitasse, nam eros vitae habitant luctus purus congue nulla tincidunt sem volutpat at. Feugiat potenti diam vitae sed senectus vulputate congue etiam viverra, orci ullamcorper porttitor nostra suscipit risus purus molestie. Non volutpat neque nostra magnis vel sed fusce bibendum nam tellus, egestas habitant purus ad cubilia suscipit dictum hac elementum quis, facilisi turpis felis ridiculus euismod platea penatibus viverra accumsan.
+					<br />
+					<div className='frase-pele'>
+						<p className='frase'>
+							"Hola, soy <strong>Daniel Calderon</strong> y me
+							describo como un desarrollador full-stack junior,
+							que busca oportunidades de crecer profesionalmente
+							en el campo de la tecnología y la informática.
+						</p>
+						<br />
+						<p className='frase'>
+							Tengo experiencia en la creación de aplicaciones web
+							utilizando tecnologías como JavaScript, Node.js,
+							React, Express, MongoDB. He trabajado en proyectos
+							personales y he aprendido mucho en los últimos
+							meses.
+						</p>
+						<br />
+						<p className='frase'>
+							Me apasiona la programación y me encanta aprender
+							nuevas tecnologías. Como desarrollador full stack
+							junior, mi experiencia puede ser más limitada que
+							otros, aunque mi capacidad para aprender y mi
+							dedicación para crecer y mejorar compensan esa
+							brecha.
+						</p>
+						<br />
+						<p className='frase'>
+							Busco ser parte de un equipo que crea en la cultura
+							de la colaboración y el aprendizaje continuo, donde
+							pueda contribuir y seguir aprendiendo. Soy una
+							persona amigable y me gusta trabajar con otras
+							personas para lograr objetivos comunes. Me considero
+							un buen comunicador y me enorgullezco de mi
+							capacidad para trabajar en equipo y aprender de los
+							demás. Disfruto trabajar con personas de diferentes
+							antecedentes y con diferentes niveles de
+							experiencia, y estoy comprometido con la creación de
+							un ambiente de trabajo inclusivo y colaborativo. Me
+							encantaría ."
+						</p>
+						<br />
+						<p className='frase'>
+							Si bien todavía tengo mucho que aprender en términos
+							de tecnologías específicas y herramientas de
+							programación, estoy dispuesto a trabajar duro y
+							dedicar el tiempo y la energía necesarios para
+							seguir aprendiendo y mejorar mi conjunto de
+							habilidades.
+						</p>
+					</div>
+				</div>
+			</div>
+		</>
+	)
+}
 
-Erat tempus class eros convallis volutpat vitae ut, conubia placerat ad nisi vehicula. Odio euismod pharetra ad vivamus dis nisl erat, lacus sociis dui vulputate enim rutrum rhoncus egestas, aptent nulla molestie neque litora vel. Sollicitudin auctor scelerisque class id felis a vivamus etiam, dignissim lobortis rutrum montes aliquam leo tempor platea, ultricies pulvinar enim augue vestibulum erat libero, inceptos suspendisse blandit lectus odio aptent aenean.
+/* 
+
+				Si deseas presentarte como un desarrollador full-stack junior, es importante que tu descripción incluya información relevante sobre tus habilidades técnicas y experiencia. Aquí hay algunos puntos clave que podrías considerar incluir:</p>
+<p>
+Presentación: Inicia presentándote y mencionando que eres un desarrollador full-stack junior. Por ejemplo, "Hola, soy [tu nombre] y me describo como un desarrollador full-stack junior".
+
+Habilidades técnicas: Menciona las habilidades técnicas que has aprendido y desarrollado. Incluye tecnologías y herramientas que has utilizado en proyectos, como lenguajes de programación, frameworks, bases de datos, control de versiones, etc. Asegúrate de mencionar que eres capaz de trabajar tanto en la parte delantera como en la trasera del sitio web.
+
+Experiencia: Si tienes experiencia previa en desarrollo, aunque sea en proyectos personales, menciona cuánto tiempo has estado programando y cuáles han sido tus logros hasta el momento. Si no tienes experiencia laboral previa, enfatiza tu pasión por la programación y los proyectos que has creado por tu cuenta.
+
+Actitud: Describe cómo te gustaría contribuir en una empresa y cuál es tu actitud hacia el trabajo en equipo. Habla sobre tu disposición para aprender y recibir retroalimentación.
+
+Aquí hay un ejemplo de cómo podrías presentarte:
+
+"Hola, soy [tu nombre] y me describo como un desarrollador full-stack junior. Tengo experiencia en la creación de aplicaciones web utilizando tecnologías como JavaScript, Node.js, React, Express, MongoDB y MySQL. He trabajado en proyectos personales y he aprendido mucho en los últimos meses.
+
+Me apasiona la programación y me encanta aprender nuevas tecnologías. Me gustaría unirme a una empresa donde pueda contribuir y seguir aprendiendo en equipo. Soy una persona amigable y me gusta trabajar con otras personas para lograr objetivos comunes. Me considero un buen comunicador y estoy dispuesto a recibir retroalimentación y mejorar constantemente. Me encantaría ser parte de un equipo que cree en la cultura de la colaboración y el aprendizaje continuo."
 					</p>
 
 				</div>
 			</div>
 		</>
 	)
-}
+} */
