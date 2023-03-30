@@ -19,6 +19,7 @@ fecha.innerHTML = FECHA.toLocaleDateString('es-AR', {
 	weekday: 'long',
 	month: 'long',
 	day: 'numeric',
+	year:'numeric'
 })
 
 /*
