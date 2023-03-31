@@ -51,9 +51,11 @@ function tareaRealizada(element) {
 	element.classList.toggle(uncheck)
 	element.parentNode.querySelector('.text').classList.toggle(lineThrough)
 	LIST[element.id].realizado = LIST[element.id].realizado ? false : true //Si
+	/* 
 	console.log(LIST)
 	console.log(LIST[element.id])
-	console.log(LIST[element.id].realizado)
+	console.log(LIST[element.id].realizado) 
+	*/
 }
 
 /*
@@ -65,7 +67,9 @@ function tareaEliminada(element) {
 	console.log(element.parentNode)
 	element.parentNode.parentNode.removeChild(element.parentNode)
 	LIST[element.id].eliminado = true
+	/* 
 	console.log(LIST)
+	*/
 }
 
 /*
@@ -116,10 +120,12 @@ $ ********** Actualización Check de Lista **********
 lista.addEventListener('click', function (event) {
 	const element = event.target
 	const elementData = element.attributes.data.value
+	/* 
 	console.log(element)
 	console.log(element.attributes)
 	console.log(element.attributes.data)
-	console.log(element.attributes.data.value)
+	console.log(element.attributes.data.value) 
+	*/
 	if (elementData === 'realizado') {
 		tareaRealizada(element)
 	} else if (elementData === 'eliminado') {
