@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="theme-color" content="#0093e9" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon.png"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+		/>
+		<link rel="manifest" href="manifest.json" />
+		<link rel="stylesheet" href="./index.css" />
+		<title>App ToDo List</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="perfil">
+				<div id="fecha"></div>
+				<!-- <h1>Hola, Daniel Calderon</h1> -->
+				<span>¡ Cumple tus metas !</span>
+			</div>
+
+			<div class="agregar-tarea">
+				<input maxlength="28" size="28"  type="text" id="input" placeholder="Agregar tarea" />
+				<i class="fas fa-plus-circle" id="enter"></i>
+			</div>
+			<p class="caracteres"><sup>(Max. 28 caracteres)</sup></p>
+
+			<div class="seccion-tarea">
+				<ul id="lista">
+					<!-- 
+					<li id="elemento">
+                        <i class="far ${REALIZADO}" data="realizado" id="${id}"></i>
+                        <p class="text ${LINE}">${tarea}</p>
+                        <i class="fas fa-trash de" data="eliminado" id="${id}"></i> 
+                    </li> 
+					-->
+				</ul>
+			</div>
+		</div>
+		<!-- <footer class="footer">
+			<small
+				>Creado por
+				<a
+					href="https://github.com/Kapelu"
+					target="_blank"
+					rel="noopener"
+					>@Kapelu</a
+				> con 💛</small
+			>
+		</footer> -->
+		<script src="./index.js"></script>
+	</body>
+</html>
