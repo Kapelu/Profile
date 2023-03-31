@@ -35,7 +35,7 @@ function agregarTarea(tarea, id, realizado, eliminado) {
 	const elemento = `
                         <li id="elemento">
                         <i class="far ${REALIZADO}" data="realizado" id="${id}"></i>
-                        <p class="text ${LINE}">${tarea}</p>
+                        <p class="text ${LINE}" >${tarea}</p>
                         <i class="fas fa-trash de" data="eliminado" id="${id}"></i> 
                         </li>
                     `
