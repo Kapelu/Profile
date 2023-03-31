@@ -8,7 +8,7 @@
       "type": "asset/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo512.png",
       "type": "asset/png",
       "sizes": "512x512"
     }
