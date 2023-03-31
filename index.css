@@ -62,14 +62,6 @@ body {
 
 /*$ ********** Perfil ********** */
 
-.perfil h1 {
-	padding: 1rem;
-	color: var(--white);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .perfil span {
 	color: var(--white);
 	letter-spacing: 0.5rem;
@@ -152,14 +144,6 @@ body {
 @media screen and (min-width: 768px) {
 	
 	/*$ ********** Perfil ********** */
-
-	.perfil h1 {
-		padding: 1rem;
-		color: var(--green);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
 
 	.perfil span {
 		color: var(--white);
