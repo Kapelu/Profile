@@ -154,30 +154,6 @@ body {
 	.perfil span {
 		color: var(--white)
 	}
-
-	/*$ ********** Agregar Tarea ********** */
-
-	.agregar-tarea {
-		background-color: var(--white);
-	}
-
-	.agregar-tarea input {
-		background-color: var(--white);
-	}
-	.agregar-tarea input::placeholder {
-		color: var(--purple);
-	}
-
-	.agregar-tarea i {
-		color: var(--purple);
-	}
-	
-	/*$ ********** Sección Tarea ********** */
-
-	.line-through {
-		text-decoration: line-through;
-		color: var(--blue-light);
-	}
 }
 
 /*# ********** Versión Desktop ********** */
