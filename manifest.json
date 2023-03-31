@@ -1,0 +1,20 @@
+{
+  "short_name": "Metas Diarias",
+  "name": "Daniel Calderon",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "asset/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "asset/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0093e9",
+  "background_color": "#ffffff"
+}
