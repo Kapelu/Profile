@@ -1,7 +1,7 @@
 /*$ ********** Variables de colores y fuente ********** */
 :root {
 	/*# Colores */
-	--bg: linear-gradient(180deg, #0093e9 0%, #80d0af 100%);
+	--bg: linear-gradient(to bottom, rgb(0, 147, 233) 0%, #80d0af 100%);
 	--white: #fafafb;
 	--purple: #6791ea;
 	--blue-light: #04d4c3;
