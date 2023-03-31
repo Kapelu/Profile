@@ -111,7 +111,7 @@ body {
 
 .caracteres{
 	margin: 0;
-	padding: 0;
+	padding-left: 1rem;
 	font-size: .8rem;
 }
 /*$ ********** Sección Tarea ********** */
