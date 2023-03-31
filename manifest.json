@@ -5,11 +5,11 @@
     {
       "src": "favicon.ico",
       "sizes": "32x32",
-      "type": "asset/x-icon"
+      "type": "assets/x-icon"
     },
     {
       "src": "logo512.png",
-      "type": "asset/png",
+      "type": "assets/png",
       "sizes": "512x512"
     }
   ],
